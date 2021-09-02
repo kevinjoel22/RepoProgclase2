@@ -1,0 +1,8 @@
+20:10:19 **** Incremental Build of configuration Debug for project clase 3 ****
+Info: Internal Builder is used for build
+gcc -o "clase 3.exe" "src\\clase 3.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file clase 3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+20:10:20 Build Failed. 1 errors, 0 warnings. (took 250ms)
+

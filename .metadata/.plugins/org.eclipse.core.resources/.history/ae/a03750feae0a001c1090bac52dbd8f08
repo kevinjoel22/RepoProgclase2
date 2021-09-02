@@ -1,0 +1,37 @@
+/*
+ ============================================================================
+ Name        : clase.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+		setbuf(stdout,NULL);
+
+		int numeroUno;
+		int numeroDos;
+		int resultado;
+		float promedio;
+
+		printf("Ingrese el numero uno: \n");
+		scanf("%d",&numeroUno);
+
+		printf("Ingrese el numero dos: \n");
+		scanf("%d",&numeroDos);
+
+		resultado= numeroUno + numeroDos;
+					//8 castio, 8.00
+		promedio = (float)resultado / 2;
+
+		printf("\nEste es el resultado de la suma %d",resultado);
+		printf("\nEste es el resultado del promedio %f", promedio);
+
+
+	return EXIT_SUCCESS;
+}
